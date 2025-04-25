@@ -39,20 +39,7 @@ header {
 	background-color: #733C19;
 	padding: 1em;
 	z-index: 1;
-}
-
-.header::after {
-    content: '';
-    display: block;
-    height: 70px; 
-    background: url('../inscription/ressources/poils.png') repeat-x; 
-    background-size: contain;
-    position: absolute;
-    bottom: -50px; 
-    left: 0;
-    right: 0;
-    z-index: 0;
-    transform: rotate(180deg);
+	position: relative;
 }
 
 footer {
