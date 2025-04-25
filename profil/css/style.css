@@ -7,6 +7,7 @@
     padding: 1em 1em 0 1em;
     text-transform: uppercase;
 }
+
 /*
 .header::after {
     content: '';
@@ -115,6 +116,14 @@
     width: 90%;
 }
 
+.like {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 1.5rem;
+}
+
 .overlay a {
     text-decoration: none;
     color: white;
@@ -130,7 +139,8 @@
 
 .overlay i:hover {
     color: #D7512B;
-    transform: translate(-50%, 0) scale(1.2); /* Combine le centrage et le scale */
+    transform: translate(-50%, 0) scale(1.2);
+    /* Combine le centrage et le scale */
     transition: transform 0.3s ease;
 }
 
