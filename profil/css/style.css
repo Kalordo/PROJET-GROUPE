@@ -8,7 +8,7 @@
     text-transform: uppercase;
 }
 
-/*
+
 .header::after {
     content: '';
     display: block;
@@ -22,7 +22,7 @@
     z-index: 0;
     transform: rotate(180deg);
 }
-*/
+
 
 /* OS avec titre */
 .os-container {
