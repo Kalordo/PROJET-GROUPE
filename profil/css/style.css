@@ -248,11 +248,31 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .os-container {
+        width: 40%;
+        max-width: 400px;
+        margin: 0 auto;
+        margin: -2em 0;
+    }
+
     .os-title {
         font-size: 1.2rem;
     }
 
     .modal-content {
         padding: 15px;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+        padding-left: 0;
+        gap: 3rem;
+    }
+    .nav ul li {
+        padding: 1rem;
+        border-bottom: 1px solid #2e1f0e;
     }
 }
