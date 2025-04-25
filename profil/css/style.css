@@ -8,21 +8,9 @@
     text-transform: uppercase;
 }
 
+/*
 
-.header::after {
-    content: '';
-    display: block;
-    height: 70px; 
-    background: url('../ressources/img/grass2.png') repeat-x; 
-    background-size: contain;
-    position: absolute;
-    bottom: -50px; 
-    left: 0;
-    right: 0;
-    z-index: 0;
-    transform: rotate(180deg);
-}
-
+*/
 
 /* OS avec titre */
 .os-container {
@@ -255,6 +243,10 @@
 /* Exemple pour les écrans de moins de 480px */
 @media (max-width: 780px) {
     /* MOBILE */
+
+    .row {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     .os-title {
         font-size: 1.2rem;
