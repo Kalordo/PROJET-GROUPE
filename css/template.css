@@ -45,8 +45,9 @@ header {
 footer {
 	position: relative;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	text-align: center;
+	flex-direction: column;
 	padding-top: 4rem;
 	background-color: #fdf6ec;
 	color: #F6CF8C;
